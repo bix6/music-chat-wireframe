@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="TODO:Description" />
+    <title>TODO:Title</title>
+    <link rel="icon" href="favicon.ico" />
+    <link href="css/reset.css" rel="stylesheet" />
+    <link href="css/index.css" rel="stylesheet" />
+</head>
+<body>
+    <header>
+        <h1>Music Chat</h1>
+    </header>
+    <main>
+        <div id="chat-box">
+            <form>
+                <label for="chat-room">Chat Room</label>
+                <select name="chat-room" id="chat-room">
+                    <option value="Global">Global</option>
+                    <option value="Artists">Artists</option>
+                    <option value="Songs">Songs</option>
+                </select>
+            </form>
+            <ol>
+                <li>Jack 8:30am: Hello World</li>
+                <li>Susan 8:31am: Wow this is amazing</li>
+                <li>Jerry 8:35am: All I do is music</li>
+                <li>Jack 8:40am: Pretend this is an embedded video</li>
+            </ol>
+            <form>
+                <label for="chat-input">Chat:</label>
+                <textarea id="chat-input" name="chat-input" placeholder="Type a message or search for a video"></textarea>
+                <button type="submit">Chat</button>
+                <button type="submit">Search</button>
+            </form>
+        </div>
+        <div id="temp">
+            <a href="./index.html">Temp: Home</a>
+        </div>
+    </main>
+</body>
+</html>
