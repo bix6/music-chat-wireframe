@@ -6,3 +6,64 @@ html {
 *, *:before, *:after {
     box-sizing: inherit;
 }
+
+body {
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+header {
+    margin: 2rem;
+    margin-top: 30vh;
+}
+
+h1 {
+    font-size: 4rem;
+    font-family: serif;
+}
+
+p {
+    font-size: 2rem;
+    font-family: sans-serif;
+    margin: 1rem;
+}
+
+form {
+    font-size: 2rem;
+    font-family: monospace;
+    margin: 1rem;
+    margin-top: 10rem;
+}
+
+#temp {
+    margin: 1rem;
+    margin-top: 10rem;
+    font-size: 2rem;
+}
+
+#chat-header {
+    margin-top: 2rem;
+}
+
+#chat-box {
+    border: 3px solid black;
+}
+
+#chat-box form {
+    margin: 1rem;
+}
+
+#chat-room-form {
+    padding: 1rem;
+}
+
+ol {
+    font-size: 2rem;
+    border: 3px solid black;
+    text-align: left;
+}
+
+li {
+    margin: 1rem;
+}

@@ -10,12 +10,12 @@
     <link href="css/index.css" rel="stylesheet" />
 </head>
 <body>
-    <header>
+    <header id="chat-header">
         <h1>Music Chat</h1>
     </header>
     <main>
         <div id="chat-box">
-            <form>
+            <form id="chat-room-form">
                 <label for="chat-room">Chat Room</label>
                 <select name="chat-room" id="chat-room">
                     <option value="Global">Global</option>
@@ -26,10 +26,10 @@
             <ol>
                 <li>Jack 8:30am: Hello World</li>
                 <li>Susan 8:31am: Wow this is amazing</li>
-                <li>Jerry 8:35am: All I do is music</li>
+                <li>Jerry 8:35am: All I do is shred</li>
                 <li>Jack 8:40am: Pretend this is an embedded video</li>
             </ol>
-            <form>
+            <form id="chat-input-form">
                 <label for="chat-input">Chat:</label>
                 <textarea id="chat-input" name="chat-input" placeholder="Type a message or search for a video"></textarea>
                 <button type="submit">Chat</button>
